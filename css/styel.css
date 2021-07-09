@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration:none;
+}
+ /* Header Section Start */
+  .header{
+	width: 100%;
+}
+
+.header .bg-light {
+    background-color: #fff!important;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 16px;
+    line-height: 35px;
+    margin: 0px 0px 0px 15px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+
+.banner{
+	width: 100%;
+	background: url('../images/banner.png') center top no-repeat;
+	background-size: cover;
+
+}
+.banner .inner-banner h1{
+ 	padding: 160px 0px 45px;
+    text-align: left;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner .inner-banner p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 34px;
+}
+.banner .button .btn-light{
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 1%;
+    padding: 8px 25px;
+    font-size: 18px;
+    margin: 100px 0px;
+    text-transform: uppercase;
+}
+.banner .button .btn-light i{
+	padding: 10px 10px;
+}
+.button .btn-light:hover, .button .btn-light:focus{
+	    background-color: transparent;
+	    color: #fff;
+	    transition: 1s;
+}
+.banner .dot{
+	padding: 60px 0px;
+    color: transparent;
+}
+/* Banner Section End */
+
+
+/* Heading Section Start */
+.heading{
+	width: 100%;
+	padding: 55px 0px;
+	text-align: center;
+}
+
+.heading .title h1{
+	text-transform: uppercase;
+    font-weight: 500;
+    padding: 30px;
+
+}
+.heading .title p{
+    font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+    margin-bottom: 110px;
+}
+
+/* Heading Section End */
+
+
+.wellcome .{
+    padding: 30px 0;
+}
+.heading .cards .card-body{
+	text-align: center;
+}
+.heading .cards .card-body .card-img-D {
+    width: 70px;
+    position: absolute;
+    top: -21px;
+    left: 110px;
+    color: #8e8e8e;
+}
+.heading .cards .card-body .card-img-R {
+    width: 50px;
+    position: absolute;
+    top: -30px;
+    left: 126px;
+    color: #8e8e8e;
+}
+.heading .cards .card-body .card-img-M {
+    width: 50px;
+    position: absolute;
+    top: -23px;
+    left: 124px;
+    color: #8e8e8e;
+}
+.heading .cards .card-body .card-img-S {
+    width: 52px;
+    position: absolute;
+    top: -29px;
+    left: 123px;
+    color: #8e8e8e;
+}
+.heading .cards .card-body .card-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.heading .cards .card-body hr {
+    width: 86px;
+    margin: auto;
+}
+.heading .cards .card-body p{
+    font-size: 17px;
+    padding-top: 13px;
+    color: #8e8e8e;
+    padding-bottom: 35px;
+    margin: 0;
+}
+.heading .cards .card-body .btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    padding: 5px 30px;
+}
+.heading .cards .card-body .btn-primary:hover,
+.heading .cards .card-body .btn-primary:focus{
+	border: 1px solid #eee;
+    border-radius: 0;
+    background-color: #eee;
+}
+.heading .cards .card-body .btn-primary i{
+	padding-left: 5px;
+}
+/*wellcome css end*/
+
+.about {
+	width: 100%;
+	padding: 50px 0 80px;
+}
+.about .left-side img{
+	width: 100%;
+}
+.about .right-side{
+    padding: 0px 0px 0px 85px;
+}
+
+.about .right-side h2{
+	font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.about .right-side .first{
+    font-size: 19px;
+    font-weight: 500;
+    color: #CBCBCB;
+    font-family: 'Roboto', sans-serif;
+}
+.about .right-side .second{
+    font-size: 19px;
+    font-weight: 500;
+    color: #CBCBCB;
+    font-family: 'Roboto', sans-serif;
+}
+.about .right-side .btn-primary{
+	margin-top: 50px;
+	background-color: transparent;
+    border-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    padding: 5px 30px
+}
+.about .right-side .btn-primary:hover,
+.about .right-side .btn-primary:focus{
+	background-color: #eee;
+}
+
+
+.recent .title{
+    text-align: center;
+    text-transform: uppercase;
+    background: #f8f8f8;
+    padding-top: 40px;
+}
+
+
+.wrapper{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.filter {
+    width: 100%;
+    padding: 48px 32px;
+    text-align: center;
+    margin: 0px auto;
+}
+.filter .btn-info{
+    padding: 12px 32px;
+    background: transparent;
+    border:none;
+    border-radius: 2px;
+    margin: 0px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter .btn-info:hover,
+.filter .btn-info:focus{
+    background: #fff;
+    border:1px solid #000 ; 
+    transition: 1s;
+}
+.padd{
+    padding: 2px;
+}
+
+.porfolio .item{
+    width: 100%;
+    position: relative;
+}
+.item-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 136,204, .8);
+    text-align: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.porfolio .item:hover .item-hover{
+     transform: scale(1);
+}
+.item-hover .fa{
+    font-size: 60px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
